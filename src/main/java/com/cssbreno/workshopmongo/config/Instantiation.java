@@ -1,11 +1,9 @@
 package com.cssbreno.workshopmongo.config;
 
 import java.util.Arrays;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
-
 import com.cssbreno.workshopmongo.domain.User;
 import com.cssbreno.workshopmongo.repository.UserRepository;
 
@@ -20,11 +18,11 @@ public class Instantiation implements CommandLineRunner{
 
     userRepository.deleteAll();
 
-    User bruna = new User(null, "Bruna Caetano", "bruna@gmail.com");
-    User brenda = new User(null, "Brenda Silva", "brenda@gmail.com");
-    User maya = new User(null, "Maya Caetano", "chulapet@gmail.com");
+    User joel = new User(null, "Joel Miller", "joel@theguardians.com");
+    User ellie = new User(null, "Ellie Williams", "ellie@theinfected.com");
+    User tess = new User(null, "Tess", "tess@theguardians.com");
 
-    userRepository.saveAll(Arrays.asList(bruna, brenda, maya));
+    userRepository.saveAll(Arrays.asList(joel, ellie, tess));
   }
 
 }
