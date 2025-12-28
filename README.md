@@ -50,13 +50,13 @@ GET /users
 [
   {
     "id": "507f1f77bcf86cd799439011",
-    "name": "Bruna Caetano",
-    "email": "bruna@gmail.com"
+    "name": "Joel Miller",
+    "email": "joel@theguardians.com"
   },
   {
     "id": "507f1f77bcf86cd799439012",
-    "name": "Brenda Silva",
-    "email": "brenda@gmail.com"
+    "name": "Ellie Williams",
+    "email": "ellie@theinfected.com"
   }
 ]
 ```
@@ -71,8 +71,8 @@ GET /users/{id}
 ```json
 {
   "id": "507f1f77bcf86cd799439011",
-  "name": "Bruna Caetano",
-  "email": "bruna@gmail.com"
+  "name": "Joel Miller",
+  "email": "joel@theguardians.com"
 }
 ```
 
@@ -239,14 +239,14 @@ Converte exceções técnicas em respostas HTTP semanticamente corretas com `@Ex
 
 ## 🔐 Boas Práticas Implementadas
 
-✅ **Nomes Descritivos**: Variáveis e métodos com nomes claros e pronunciáveis  
-✅ **Single Responsibility**: Cada classe com uma única responsabilidade  
-✅ **Fail Fast**: Validação imediata de dados de entrada  
-✅ **DTOs**: Separação entre domínio e apresentação  
-✅ **Tratamento Robusto de Erros**: Exceções customizadas e resposta padronizada  
-✅ **Composição sobre Herança**: Uso de injeção de dependência ao invés de hierarquias  
-✅ **Sem Magic Numbers**: Valores hardcoded evitados através de constantes  
-✅ **Código Limpo**: Funções pequenas, focadas, bem documentadas  
+✅ **Nomes Descritivos**: Variáveis e métodos com nomes claros e pronunciáveis
+✅ **Single Responsibility**: Cada classe com uma única responsabilidade
+✅ **Fail Fast**: Validação imediata de dados de entrada
+✅ **DTOs**: Separação entre domínio e apresentação
+✅ **Tratamento Robusto de Erros**: Exceções customizadas e resposta padronizada
+✅ **Composição sobre Herança**: Uso de injeção de dependência ao invés de hierarquias
+✅ **Sem Magic Numbers**: Valores hardcoded evitados através de constantes
+✅ **Código Limpo**: Funções pequenas, focadas, bem documentadas
 
 ---
 
@@ -308,12 +308,6 @@ Este projeto é fornecido para fins educacionais. Consulte a seção de licença
 
 ---
 
-## 👨‍💻 Autor
-
-**Breno CSS**  
-GitHub: [@cssbreno](https://github.com/cssbreno)
-
----
 
 ## 🙏 Agradecimentos
 
